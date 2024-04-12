@@ -55,10 +55,10 @@ const Sidebar = ({ showNav, setShowNav }) => {
       <div className=" mb-28 text-gray-200 mx-3 flex gap-3">
         <Link href="/dmca">
           <p className="hover:border border-gray-200 p-1 font-medium w-fit rounded cursor-pointer text-sm">
-            DMCA
+            Auditions
           </p>
         </Link>
-        <a
+        {/* <a
           href="https://github.com/himanshu8443/hayasaka"
           target="_blank"
           rel="noreferrer"
@@ -67,7 +67,7 @@ const Sidebar = ({ showNav, setShowNav }) => {
             <FaGithub />
             Github
           </p>
-        </a>
+        </a> */}
       </div>
     </div>
   );
