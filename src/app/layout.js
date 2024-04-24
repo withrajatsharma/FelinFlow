@@ -18,14 +18,14 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Hayasaka",
+  title: "Groovezilla",
   description: "Music streaming app",
   image:
     "https://res.cloudinary.com/dbr73rpz9/image/upload/v1690380865/images/logo-color_noktgr.png",
   url: "https://hayasaka.vercel.app",
   type: "website",
   icons: [{ rel: "icon", url: Favicon.src }],
-  site_name: "Hayasaka",
+  site_name: "Grovezilla",
   manifest: "/manifest.json",
 };
 
